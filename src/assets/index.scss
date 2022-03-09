@@ -1,0 +1,52 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    // 'primary': (
+    //   'base':  linear-gradient(90deg,#02bdad,#00a99b)
+    // ),
+    'success': (
+      'base':  #02bdad
+    ),
+  ),
+  $button: (
+    'font-weight': 300
+  ),
+  $radio: (
+    'font-weight': 400,
+  ),
+
+  $button-font-size: (
+    'default': 13px,
+    'small': 12px,
+  ),
+  $common-component-size: (
+    'large': 50px,
+    'default': 36px,
+    'small': 24px,
+  ) ,
+  $date-editor: (
+    'width': 137px,
+    'monthrange-width': 300px,
+    'daterange-width': 350px
+  ),
+  $font-size: (
+    'extra-large': 20px,
+    'large': 18px,
+    'medium': 16px,
+    'base': 14px,
+    'small': 13px,
+    'extra-small': 12px
+  ),
+  $border-radius: (
+    'base': 4px,
+    'small': 2px,
+    'round': 20px,
+    'circle': 100%,
+
+  ),
+  $checkbox: (
+    'font-size': 13px,
+    'font-weight': 400,
+  )
+);
+
+@use "element-plus/theme-chalk/src/index.scss" as *;

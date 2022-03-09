@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Khmer:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.firasans {
+  font-family: "Fira Sans", "Noto Sans Khmer", "Poppins", "Inter", "Libre Caslon Text", sans-serif;
+}
+.poppins {
+  font-family: "Poppins", "Fira Sans", "Noto Sans Khmer", "Inter", "Libre Caslon Text", sans-serif;
+}
+.libre {
+  font-family: "Libre Caslon Text", "Noto Sans Khmer", "Poppins", "Inter", sans-serif;
+}
+
+body {
+  font-family: "Fira Sans", "Noto Sans Khmer", "Poppins", "Inter", "Libre Caslon Text", sans-serif;
+  font-weight: 400;
+  background-color: #EBF1F7;
+}
+
+.width-400 {
+  width: 400px;
+}
+.width-500 {
+  width: 580px;
+}
+.width-600 {
+  width: 650px;
+}
+
+.el-button {
+  box-shadow: 0 0 0 0 rgb(0 0 0 / 20%), inset 0 -4px 0 0 rgb(0 0 0 / 20%);
+}
+
+.dashed {
+  border-bottom: 1px dashed #ebedf3;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.el-select {
+  width: 100%;
+}
+
+.el-input--prefix .el-input__inner {
+  padding-left: 35px;
+}
+
+.el-input--suffix .el-input__inner {
+  padding-right: 8px;
+}
+
+.el-input-number {
+  width: 130px;
+}
+
+.el-form-item__label{
+  font-weight: 300;
+  font-size: 13px;
+}
+.el-dialog {
+  border-radius: 6px;
+  .el-dialog__header {
+    border-bottom: 1px solid #ebedf3;
+    margin-right: 0;
+    padding-top: 10px;
+    .el-dialog__title {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+  .el-dialog__footer {
+    padding-top: 20px;
+    border-top: 1px solid #ebedf3;
+    text-align: center;
+  }
+  .el-dialog__headerbtn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 8px 0;
+    border-radius: 4px;
+    width: 34px;
+    height: 34px;
+    background: red;
+    .el-dialog__close {
+      color: #ffffff;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+  .el-dialog__headerbtn:hover .el-dialog__close {
+    color: #fff;
+  }
+}
+.el-checkbox-button__inner, .el-radio{
+  height: 36px;
+  padding-top: 11px;
+  font-weight: 300;
+}
+
+@media (max-width: 500px) {
+  .el-form-item {
+    display: block;
+    padding-left: 2rem;
+    margin-bottom: 14px;
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .el-dialog {
+    .el-dialog__headerbtn {
+      display: none;
+    }
+  }
+}
